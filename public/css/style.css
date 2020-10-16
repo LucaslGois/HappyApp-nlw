@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+  /*O PRIMEIRO parâmetro representa o font-weight, o SEGUNDO / TERCEIRO parâmetro representa o font-size e o line-height (18px/1) -> (font-size / line-height) o QUARTO parâmetro representa a font-family e em seguida o QUINTO parâmetro (que sempre acompanha o QUARTO) representa uma fonte alternativa caso a principal não seja aplicada
+  */
+}
